@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*   Google Fonts kutubxonasidan Inter shriftini import qilish uchun */
+* {
+    margin: 0;
+    /*elementlarning tashqi bo'shlig'ini olib tashlash uchun*/
+    padding: 0;
+    /*elementlarning ichki bo'shlig'ini olib tashlash uchun*/
+    box-sizing: border-box;
+    /*elementlarning tashqi va ichki bo'shlig'ini olib tashlash va o'lchamlarni hisoblashni osonlashtirish uchun*/
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    /*body elementining shriftini o'rnatish uchun*/
+}
+
+.header {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    padding-top: 43px;
+    padding-left: 132px;
+    padding-bottom: 37px;
+}
+
+.header__text {
+    margin-left: 48px;
+    margin-right: 56px;
+    width: 179px;
+    font-weight: 400;
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    color: #7E8290;
+}
+
+.header__text:hover {
+    color: #666666;
+}
+
+.header__location {
+    padding-right: 56px;
+}
+
+.header__location-logo {
+    float: left;
+    padding-top: 15px;
+    padding-right: 12px;
+}
+
+
+.header__location-1 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #F85B18;
+    border-bottom: dashed 1px black;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.header__location-2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #313440;
+    padding-right: auto;
+    background-color: red;
+    display: inline-block;
+}
+
+.header__cont-logo {
+    float: left;
+}
