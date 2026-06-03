@@ -71,11 +71,39 @@ body {
     font-size: 14px;
     line-height: 18px;
     color: #313440;
-    padding-right: auto;
-    background-color: red;
     display: inline-block;
 }
 
+.header__cont {
+    display: flex;
+    align-items: center;
+}
+
 .header__cont-logo {
+    margin-top: 8px;
     float: left;
+    padding-right: 12px;
+}
+
+.header__cont-s {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__cont-text {
+    color: #7E8290;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.header__cont-num {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 18px;
+    color: #313440;
 }
