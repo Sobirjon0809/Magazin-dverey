@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Магазин Дверей</title>
 </head>
 
 <body>
+
+    <!-- Start Header -->
     <header>
         <div class="container">
             <div class="header__logo">
                 <img src="images/header-logo.svg" alt="дверЬ.рф logo">
             </div>
             <div class="header__text">
-                <p>Межкомнатные, входные двери и фурнитура к ним</p> <!-- Tarjimasi : Ichki eshiklar, tashqi (kirish) eshiklar va ularga tegishli jihozlar-->
+                <p>Межкомнатные, входные двери и фурнитура к ним</p>
+                <!-- Tarjimasi : Ichki eshiklar, tashqi (kirish) eshiklar va ularga tegishli jihozlar-->
             </div>
             <div class="header__location">
                 <div class="header__location-logo">
@@ -24,7 +28,8 @@
                 </div>
                 <div class="header__location-s">
                     <span class="header__location-1">г. Волгоград</span> <!-- Tarjimasi : Volgograd shahri -->
-                    <span class="header__location-2">ул. Каннуникова д 6/1</span> <!-- Tarjimasi : Kаннуникова ko'chasi, 6/1-uy -->
+                    <span class="header__location-2">ул. Каннуникова д 6/1</span>
+                    <!-- Tarjimasi : Kаннуникова ko'chasi, 6/1-uy -->
                 </div>
             </div>
             <div class="header__cont">
@@ -32,16 +37,89 @@
                     <img src="images/header__cont-logo.svg" alt="telefon logo">
                 </div>
                 <div class="header__cont-s">
-                    <span class="header__cont-text">Звоните прямо сейчас:</span> <!-- Tarjimasi : Hozir qo'ng'iroq qiling -->
+                    <span class="header__cont-text">Звоните прямо сейчас:</span>
+                    <!-- Tarjimasi : Hozir qo'ng'iroq qiling -->
                     <span class="header__cont-num">+7 (844) 225-03-00</span>
+                </div>
+            </div>
+            <div class="icons-wrapper">
+                <div class="icon-btn">
+                    <img src="images/ranking.svg" alt="star">
+                    <span class="badge">1</span>
+                </div>
+                <div class="icon-btn">
+                    <img src="images/chart.svg" alt="chart">
+                    <span class="badge">1</span>
+                </div>
+                <div class="icon-btn active">
+                    <img src="images/shopping-cart.svg" alt="shopping-cart">
+                    <span class="badge">1</span>
                 </div>
             </div>
         </div>
     </header>
+    <!-- End Header -->
+
+
+    <!-- Start Navigation -->
+    <nav>
+        <div class="container">
+            <div class="nav__list">
+                <div class="nav__item"><a href="#">Входные двери</a></div> <!-- Tarjimasi : Kirish eshiklari -->
+                <div class="nav__item"><a href="#">Межкомнатные двери</a></div><!-- Tarjimasi : Ichki eshiklar -->
+                <div class="nav__item"><a href="#">Фурнитура</a></div> <!-- Tarjimasi : Jihozlar -->
+                <div class="nav__item"><a href="#">Оплата</a></div> <!-- Tarjimasi : To'lov -->
+                <div class="nav__item"><a href="#">Доставка и гарантия</a></div>
+                <!-- Tarjimasi : Yetkazib berish va kafolat -->
+                <div class="nav__item"><a href="#">О магазине</a></div><!-- Tarjimasi : Magazin haqidagi ma'lumotlar -->
+            </div>
+            <div class="outer">
+                <div class="search-box">
+                    <input type="search" style="caret-color: #008000 ;" placeholder="Поиск" />
+                    <button>
+                        <img src="images/search-normal.svg" width="16" height="16" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation -->
 
 
 
-    <script src="script.js"></script>
+
+    <!-- Start Section -->
+    <!-- Slider -->
+    <section>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img src="images/Slider__image.png" alt="slide1" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="images/Slider__image.png" alt="slide2" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="images/Slider__image.png" alt="slide3" />
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- End Section -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
